@@ -23,7 +23,3 @@ flower.water(60)
 print(flower.status())
 flower.water(100)
 print(flower.status())
-
-
-
-
