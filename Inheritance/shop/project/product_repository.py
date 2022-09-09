@@ -19,16 +19,8 @@ class ProductRepository:
             if product.name == product_name:
                 self.products.remove(product)
 
-    # def __repr__(self):
-    #     res = ""
-    #     for product in self.products:
-    #         res += f"{product.name}: {product.quantity}"
-    #         res += "\n"
-    #     return res.strip()
-
     def __repr__(self):
         res = ""
         for product in self.products:
             res += f"{product.name}: {product.quantity}\n"
         return res.strip()
-
