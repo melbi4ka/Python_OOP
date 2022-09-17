@@ -14,7 +14,6 @@ def exec_time(function):
 
 
 
-
 @exec_time
 def loop(start, end):
     total = 0
