@@ -34,20 +34,3 @@ def first_letter(word):
 
 print(first_letter('Hello World'))
 print(first_letter(['Not', 'A', 'String']))
-
-# test first zero
-import unittest
-
-
-class TypeCheckTests(unittest.TestCase):
-    def test_zero_first(self):
-        @type_check(int)
-        def times2(num):
-            return num * 2
-
-        self.assertEqual(times2(2), 4)
-        self.assertEqual(times2('Not A Number'), 'Bad Type')
-
-
-if __name__ == '__main__':
-    unittest.main()
