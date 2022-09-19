@@ -14,7 +14,6 @@ class countdown_iterator:
         return result
 
 
-
 iterator = countdown_iterator(10)
 for item in iterator:
     print(item, end=" ")
