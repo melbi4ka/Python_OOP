@@ -6,5 +6,4 @@ def possible_permutations(iterable):
         yield list(el)
 
 
-
 [print(n) for n in possible_permutations([1, 2, 3])]
