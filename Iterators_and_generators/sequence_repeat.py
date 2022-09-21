@@ -22,5 +22,3 @@ class sequence_repeat:
 result = sequence_repeat('abc', 5)
 for item in result:
     print(item, end='')
-
-
