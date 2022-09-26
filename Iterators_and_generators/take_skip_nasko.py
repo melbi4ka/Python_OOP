@@ -26,3 +26,4 @@ for number in numbers:
 numbers = take_skip(10, 5)
 for number in numbers:
     print(number)
+    
