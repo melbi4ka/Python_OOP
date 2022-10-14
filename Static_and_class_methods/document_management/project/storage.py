@@ -56,4 +56,3 @@ class Storage:
     def __repr__(self):
         result = "\n".join([repr(document) for document in self.documents])
         return result
-
