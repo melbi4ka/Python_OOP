@@ -11,6 +11,3 @@ class Topic:
 
     def __repr__(self):
         return f"Topic {self.id}: {self.topic} in {self.storage_folder}"
-
-
-
