@@ -32,3 +32,4 @@ class Document:
         return f"Document {self.id}: {self.file_name}; category {self.category_id}, " \
                f"topic {self.topic_id}, " \
                f"tags: {', '.join([tag for tag in self.tags])}"
+    
