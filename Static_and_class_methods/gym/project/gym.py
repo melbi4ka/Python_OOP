@@ -46,6 +46,3 @@ class Gym:
                 result += plan.__repr__()
 
         return result
-
-
-
