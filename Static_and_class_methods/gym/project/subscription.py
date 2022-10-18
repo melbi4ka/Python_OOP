@@ -16,4 +16,3 @@ class Subscription:
 
     def __repr__(self):
         return f"Subscription <{self.id}> on {self.date}"
-
