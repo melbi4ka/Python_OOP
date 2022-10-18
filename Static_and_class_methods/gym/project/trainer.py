@@ -13,4 +13,3 @@ class Trainer:
 
     def __repr__(self):
         return f"Trainer <{self.id}> {self.name}"
-
