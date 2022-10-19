@@ -54,14 +54,3 @@ class MovieWorld:
         for dvd in self.dvds:
             result.append(dvd.__repr__())
         return "\n".join(result)
-
-
-
-
-
-
-
-
-
-
-
