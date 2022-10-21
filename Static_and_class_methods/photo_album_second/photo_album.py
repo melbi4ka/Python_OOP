@@ -19,18 +19,6 @@ class PhotoAlbum:
         pages = ceil(photos_count / PhotoAlbum.PHOTOS_PER_PAGE)
         return cls(pages)
 
-    #
-    # @property
-    # def photos(self):
-    #     return self.__photos
-    #
-    # @photos.setter
-    # def photos(self, value):
-    #     value = []
-    #     for _ in range(self.pages):
-    #         value.append([])
-    #     self.__photos = value
-
     def add_photo(self, label):
         for idx, page in enumerate(self.photos):
             if len(page) < PhotoAlbum.PHOTOS_PER_PAGE:
