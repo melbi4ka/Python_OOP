@@ -55,9 +55,4 @@ class MovieWorld:
     def __repr__(self):
 
         return "\n".join([repr(x) for x in self.customers]) + "\n" + "\n".join([repr(x) for x in self.dvds])
-        # result = []
-        # for customer in self.customers:
-        #     result.append(customer.repr(customer))
-        # for dvd in self.dvds:
-        #     result.append(dvd.repr(customer))
-        # return "\n".join(result)
+ 
