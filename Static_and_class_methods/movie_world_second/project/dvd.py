@@ -17,12 +17,10 @@ class DVD:
     def from_date(cls, id, name, date, age_restriction):
         _,month, year = [int(x) for x in date.split(".")]
         month_name = calendar.month_name[month]
-        # from imported library month
-        # month_name = month_mapper[month]
-        # month_mapper is in another file
         return cls(name, id, year, month_name, age_restriction)
 
     def __repr__(self):
         return f"{self.id}: {self.name} ({self.creation_month} {self.creation_year}) " \
                f"has age restriction {self.age_restriction}. " \
                f"Status: {'rented' if self.is_rented else 'not rented'}"
+    
