@@ -9,5 +9,3 @@ class Category:
 
     def __repr__(self):
         return f"Category {self.id}: {self.name}"
-
-
