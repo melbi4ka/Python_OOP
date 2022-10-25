@@ -22,9 +22,6 @@ class Account:
         return f"New balance: {account.balance}"
 
 
-    # def validate_transaction(self, account, amount_to_add):
-
-
     def __str__(self):
         return f"Account of {self.owner} with starting amount: {self.amount}"
 
