@@ -32,5 +32,3 @@ class Seed(Food):
         super().__init__(quantity)
 
 
-
-
