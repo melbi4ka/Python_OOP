@@ -33,6 +33,3 @@ class Hen(Bird):
 
     def make_sound(self):
         return "Cluck"
-
-
-
