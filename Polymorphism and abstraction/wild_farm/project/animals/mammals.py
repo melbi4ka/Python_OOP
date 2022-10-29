@@ -67,7 +67,3 @@ class Tiger(Mammal):
 
     def make_sound(self):
         return "ROAR!!!"
-
-
-
-
