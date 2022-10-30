@@ -21,5 +21,3 @@ class Player:
                f"Dribble: {self.__dribble}\n" \
                f"Passing: {self.__passing}\n" \
                f"Shooting: {self.__shooting}"
-
-
