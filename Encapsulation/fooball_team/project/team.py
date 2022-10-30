@@ -18,5 +18,5 @@ class Team:
         for player in self.__players:
             if player.name == player_name:
                 self.__players.remove(player)
-                return player # връщаме обекта
+                return player 
         return f"Player {player_name} not found"
