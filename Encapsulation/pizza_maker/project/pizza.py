@@ -54,18 +54,3 @@ class Pizza:
         for key, value in self.toppings.items():
             total += value
         return total
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
