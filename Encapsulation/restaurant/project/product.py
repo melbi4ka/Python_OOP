@@ -20,5 +20,3 @@ class Product:
     def price(self, value):
         self.__price = value
 
-
-
