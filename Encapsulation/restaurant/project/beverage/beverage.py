@@ -14,7 +14,3 @@ class Beverage(Product):
     @milliliters.setter
     def milliliters(self, value):
         self.__milliliters = value
-
-
-
-
