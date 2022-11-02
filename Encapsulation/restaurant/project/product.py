@@ -19,4 +19,3 @@ class Product:
     @price.setter
     def price(self, value):
         self.__price = value
-
