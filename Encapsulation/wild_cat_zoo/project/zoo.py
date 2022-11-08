@@ -116,10 +116,3 @@ class Zoo:
         for vt in vets:
             result += repr(vt) + f"{x}"
         return result.strip()
-
-
-
-
-
-
-
