@@ -6,4 +6,3 @@ class Lion(Animal):
 
     def __init__(self, name, gender, age):
         super().__init__(name, gender, age, self.MONEY_FOR_CARE)
-
