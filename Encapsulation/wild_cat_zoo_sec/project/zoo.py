@@ -77,7 +77,3 @@ class Zoo:
         vets = [repr(a) for a in self.workers if isinstance(a, Vet)]
         result += f"----- {len(vets)} Vets:\n" + "\n".join(vets)
         return result
-
-
-
-
