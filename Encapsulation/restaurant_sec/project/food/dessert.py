@@ -11,5 +11,3 @@ class Dessert(Food):
     def calories(self):
         return self.__calories
     
-
-        
