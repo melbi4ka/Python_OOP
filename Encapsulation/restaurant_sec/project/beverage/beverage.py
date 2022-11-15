@@ -10,5 +10,3 @@ class Beverage(Product):
     @property
     def milliliters(self):
         return self.__milliliters
-
-    
