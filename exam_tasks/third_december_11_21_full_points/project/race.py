@@ -13,4 +13,3 @@ class Race:
         if not value:
             raise ValueError("Name cannot be an empty string!")
         self.__name = value
-
