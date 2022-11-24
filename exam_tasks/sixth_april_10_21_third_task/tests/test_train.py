@@ -50,5 +50,3 @@ class PetShopTest(unittest.TestCase):
         result = self.train.remove("A")
         self.assertEqual("Removed A", result)
         self.assertEqual(["B", "C", "D"], self.train.passengers)
-
-
