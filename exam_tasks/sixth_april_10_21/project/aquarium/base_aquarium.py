@@ -33,7 +33,6 @@ class BaseAquarium(ABC):
             self.fish.append(fish)
             return f"Successfully added {fish.__class__.__name__} to {self.name}."
 
-    # may reversed messages , >= may be, but not good for me
 
     def remove_fish(self, fish):
         self.fish.remove(fish)
@@ -56,4 +55,3 @@ class BaseAquarium(ABC):
         result.append(f"Comfort: {self.calculate_comfort()}")
 
         return "\n".join(result)
-
