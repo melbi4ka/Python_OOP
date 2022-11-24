@@ -9,3 +9,4 @@ class Validator:
     def raise_if_number_is_zero_or_negative(number: float, message):
         if number <= 0:
             raise ValueError(message)
+            
