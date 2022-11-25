@@ -17,5 +17,3 @@ class DecorationRepository:
             if decoration_type == decoration.__class__.__name__ :
                 return decoration
         return "None"
-
-
