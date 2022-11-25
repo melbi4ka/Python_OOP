@@ -7,3 +7,4 @@ class Ornament (BaseDecoration):
 
     def __init__(self):
         super().__init__(self.COMFORT, self.PRICE)
+        
