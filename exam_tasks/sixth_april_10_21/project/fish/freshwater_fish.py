@@ -8,7 +8,3 @@ class FreshwaterFish(BaseFish):
 
     def eat(self):
         self.size += 3
-
-
-
-
