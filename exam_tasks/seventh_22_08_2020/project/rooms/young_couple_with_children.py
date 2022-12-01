@@ -16,11 +16,3 @@ class YoungCoupleWithChildren(Room):
 
         self.appliances = [TV(), Fridge(), Laptop()] * self.members_count
         self.calculate_expenses(self.appliances, self.children)
-
-    # def calcululate_apliances(self):
-    #     result = 0
-    #     for el in self.appliances:
-    #         result += el.get_monthly_expense()
-    #     return result
-    # def calculate_appliances(self):
-    #     super().calculate_expenses(self.children, self.appliances)
