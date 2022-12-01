@@ -22,15 +22,3 @@ def test_one():
 
 if __name__ == "__main__":
     test_one()
-
-"""Monthly consumtions: 1136.00$.
-Johnsons paid 242.00$ and have 113.00$ left.
-Peterson paid 894.00$ and have 226.00$ left.
-Total population: 6
-Johnsons with 2 members. Budget: 113.00$, Expenses: 222.00$
---- Appliances monthly cost: 222.00$
-Peterson with 4 members. Budget: 226.00$, Expenses: 864.00$
---- Child 1 monthly cost: 270.00$
---- Child 2 monthly cost: 150.00$
---- Appliances monthly cost: 444.00$
-"""
