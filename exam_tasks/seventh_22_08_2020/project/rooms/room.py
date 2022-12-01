@@ -32,6 +32,3 @@ class Room:
                 if isinstance(e, Child):
                     total_cost_per_all_days += e.cost * 30
         self.expenses = total_cost_per_all_days
-
-
-
