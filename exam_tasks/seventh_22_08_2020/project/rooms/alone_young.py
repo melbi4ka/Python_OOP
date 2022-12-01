@@ -9,12 +9,3 @@ class AloneYoung(Room):
         self.room_cost = 10
         self.appliances = [TV()]
         self.calculate_expenses(self.appliances)
-
-    # def calculate_appliances(self):
-    #     super().calculate_expenses()
-    #     # result = 0
-    #     # for tv in self.appliances:
-    #     #     result += tv.get_monthly_expense()
-
-
-
