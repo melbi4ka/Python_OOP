@@ -11,11 +11,4 @@ class OldCouple(Room):
         self.room_cost = 15
         self.appliances = [TV(), Fridge(), Stove()] * 2
         self.calculate_expenses(self.appliances)
-
-    # def calcululate_apliances(self):
-    #     result = 0
-    #     for el in self.appliances:
-    #         result += el.get_monthly_expense()
-    #     return result
-    # def calculate_appliances(self):
-    #     super().calculate_expenses()
+        
