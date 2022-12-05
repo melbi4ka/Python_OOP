@@ -42,8 +42,3 @@ class Everland:
             if room.appliances:
                 result.append(f"--- Appliances monthly cost: {sum([apl.cost for apl in room.appliances]) * 30:.2f}$")
         return "\n".join(result)
-
-
-
-
-
