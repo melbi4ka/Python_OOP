@@ -50,13 +50,5 @@ class MovieTest(unittest.TestCase):
         self.assertEqual(my_result, repr(self.movie))
 
 
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     unittest.main()
