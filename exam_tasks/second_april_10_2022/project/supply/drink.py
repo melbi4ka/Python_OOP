@@ -8,6 +8,3 @@ class Drink(Supply):
 
     def details(self):
         return f"{self.__class__.__name__}: {self.name}, {self.energy}"
-
-# d1 = Drink("")
-# print(d1.details())
