@@ -7,7 +7,3 @@ class Food(Supply):
 
     def details(self):
         return f"{self.__class__.__name__}: {self.name}, {self.energy}"
-
-
-f1 = Food("aa", 5)
-print(f1.details())
