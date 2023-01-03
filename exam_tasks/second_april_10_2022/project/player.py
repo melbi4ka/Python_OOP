@@ -1,6 +1,3 @@
-
-
-
 class Player:
     player_names = []
 
@@ -57,14 +54,5 @@ class Player:
             self.stamina += supply.energy
 
 
-
     def __str__(self):
         return f"Player: {self.name}, {self.age}, {self.stamina}, {self.need_sustenance}"
-
-
-
-#
-# p1 = Player("AB", 40, 10)
-# p2 = Player("AA", 50, 40)
-# print(p1)
-# print(p2)
