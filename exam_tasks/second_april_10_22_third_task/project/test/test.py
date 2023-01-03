@@ -49,6 +49,5 @@ class MovieTest(unittest.TestCase):
         my_result = f"Name: May\nYear of Release: 1994\nRating: 8.50\nCast: Nikole, Vigo, Mads"
         self.assertEqual(my_result, repr(self.movie))
 
-
 if __name__ == "__main__":
     unittest.main()
