@@ -30,4 +30,3 @@ class Supply(ABC):
     @abstractmethod
     def details(self):
         pass
-
