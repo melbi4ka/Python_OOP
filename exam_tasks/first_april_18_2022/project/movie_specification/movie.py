@@ -23,10 +23,6 @@ class Movie(ABC):
             raise ValueError("The title cannot be empty string!")
         self.__title = value
 
-        # if len(value) == 0:
-        #     raise ValueError('The title cannot be empty string!')
-        # self.__title = value
-
     @property
     def year(self):
         return self.__year
@@ -62,6 +58,3 @@ class Movie(ABC):
         return f"{self.__class__.__name__} - Title:{self.title}, " \
                f"Year:{self.year}, Age restriction:{self.age_restriction}, " \
                f"Likes:{self.likes}, Owned by:{self.owner.username}"
-
-
-# no diff
