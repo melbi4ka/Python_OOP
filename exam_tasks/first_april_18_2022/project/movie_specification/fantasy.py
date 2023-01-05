@@ -15,8 +15,3 @@ class Fantasy(Movie):
         if value < 6:
             raise ValueError ("Fantasy movies must be restricted for audience under 6 years!")
         self.__age_restriction = value
-
-    # def details(self):
-    #     return f"Fantasy - Title:{self.title}, " \
-    #            f"Year:{self.year}, Age restriction:{self.age_restriction}, " \
-    #            f"Likes:{self.likes}, Owned by:{self.owner.username}"
