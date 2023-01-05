@@ -17,10 +17,4 @@ class Action(Movie):
         if value < 12:
             raise ValueError("Action movies must be restricted for audience under 12 years!")
         self.__age_restriction = value
-
-    # def details(self):
-    #     return f"Action - Title:{self.title}, " \
-    #            f"Year:{self.year}, Age restriction:{self.age_restriction}, " \
-    #            f"Likes:{self.likes}, Owned by:{self.owner.username}"
-
-
+        
