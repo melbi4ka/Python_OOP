@@ -109,9 +109,3 @@ class MovieApp:
         else:
             result += f"All movies: {', '.join([mve.title for mve in self.movies_collection])}"
         return result
-
-
-
-
-
-
