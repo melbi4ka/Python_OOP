@@ -13,9 +13,6 @@ class AstronautRepository:
         if astronaut in self.astronauts:
             self.astronauts.remove(astronaut)
 
-    # def remove(self, astronaut: Astronaut):
-    #     self.astronauts.remove(astronaut)
-
     def find_by_name(self, name: str):
         for astro in self.astronauts:
             if astro.name == name:
