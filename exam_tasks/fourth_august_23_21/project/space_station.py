@@ -24,33 +24,7 @@ class SpaceStation:
         self.astronaut_repository.add(astro)
         return f"Successfully added {astro.__class__.__name__}: {name}."
 
-    # @staticmethod
-    # def __create_astro(astronaut_type, name):
-    #     astro = None
-    #     if Biologist.__name__ == astronaut_type:
-    #         astro = Biologist(name)
-    #     elif Geodesist.__name__ == astronaut_type:
-    #         astro = Geodesist(name)
-    #     elif Meteorologist.__name__ == astronaut_type:
-    #         astro = Meteorologist(name)
-    #     if astro is None:
-    #         raise Exception("Astronaut type is not valid!")
-    #     else:
-    #         return astro
-    #
-    # def add_astronaut(self, astronaut_type: str, name: str):
-    #     if any(astro.name == name for astro in self.astronaut_repository.astronauts):
-    #         return f"{name} is already added."
-    #     astro = self.__create_astro(astronaut_type, name)
-    #     self.astronaut_repository.add(astro)
-    #     return f"Successfully added {astro.__class__.__name__}: {name}."
 
-    # def add_planet(self, name: str, items: str):
-    #     if any(pl.name == name for pl in self.planet_repository.planets):
-    #         return f"{name} is already added."
-    #     planet = Planet.made_planet(name, items)
-    #     self.planet_repository.planets.append(planet)
-    #     return f"Successfully added Planet: {name}."
     def add_planet(self, name: str, items: str):
         if self.planet_repository.find_by_name(name):
             return f'{name} is already added.'
