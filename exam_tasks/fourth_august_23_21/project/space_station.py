@@ -39,7 +39,6 @@ class SpaceStation:
         for astro in self.astronaut_repository.astronauts:
             if astro.name == name:
                 self.astronaut_repository.remove(astro)
-                # self.astronaut_repository.astronauts.remove(astro)
                 return f"Astronaut {name} was retired!"
         raise Exception(f"Astronaut {name} doesn't exist!")
 
