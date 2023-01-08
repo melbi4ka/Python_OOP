@@ -89,33 +89,6 @@ class SpaceStation:
             self.__noncompleated_missions += 1
             return f"Mission is not completed."
 
-    # def send_on_mission(self, planet_name: str):
-    #     planet = self.planet_repository.find_by_name(planet_name)
-    #
-    #     if planet is None:
-    #         raise Exception('Invalid planet name!')
-    #
-    #     astronauts = self.astronaut_repository.find_astronauts_for_mission(5, 30)
-    #
-    #     if len(astronauts) == 0:
-    #         raise Exception('You need at least one astronaut to explore the planet!')
-    #
-    #     participated_astronauts = 0
-    #
-    #     for astronaut in astronauts:
-    #         if len(planet.items) == 0:
-    #             break
-    #         while astronaut.oxygen > 0 and len(planet.items) > 0:
-    #             astronaut.backpack.append(planet.items.pop())
-    #             astronaut.breathe()
-    #         participated_astronauts += 1
-    #
-    #     if len(planet.items) == 0:
-    #         self.__compleate_missions += 1
-    #         return f'Planet: {planet_name} was explored. {participated_astronauts} astronauts participated in collecting items.'
-    #     else:
-    #         self.__noncompleated_missions += 1
-    #         return f'Mission is not completed.'
 
     def report(self):
         result = [f"{self.__compleate_missions} successful missions!",
