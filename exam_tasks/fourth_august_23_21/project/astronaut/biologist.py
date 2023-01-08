@@ -11,11 +11,3 @@ class Biologist(Astronaut):
 
     def breathe(self):
         self.oxygen -= 5
-
-#     def __str__(self):
-#         return f"{self.name}{self.oxygen}"
-#
-#
-# b = Biologist("Neil")
-# # b.oxygen = 100
-# print(b)
