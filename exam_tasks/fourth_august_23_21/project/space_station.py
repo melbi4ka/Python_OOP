@@ -14,15 +14,12 @@ class SpaceStation:
         self.planet_repository = PlanetRepository()
         self.astronaut_repository = AstronautRepository()
         self.austronaut_made = AustronautMade()
-        # self.planet = Planet()
         self.__compleate_missions = 0
         self.__noncompleated_missions = 0
 
     def add_astronaut(self, astronaut_type: str, name: str):
         if self.astronaut_repository.find_by_name(name):
             return f"{name} is already added."
-        # if any(astro.name == name for astro in self.astronaut_repository.astronauts):
-        #     return f"{name} is already added."
         astro = self.austronaut_made.create_astronaut(astronaut_type, name)
         self.astronaut_repository.add(astro)
         return f"Successfully added {astro.__class__.__name__}: {name}."
