@@ -35,5 +35,3 @@ print(ss.astronaut_repository.astronauts[2].oxygen)
 print(ss.report())
 print(ss.send_on_mission("Mars"))
 print(ss.report())
-#
-#
