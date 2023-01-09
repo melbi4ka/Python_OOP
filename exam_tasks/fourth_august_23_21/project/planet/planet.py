@@ -21,11 +21,3 @@ class Planet:
         for item in items_as_list:
             new_planet.items.append(item)
         return new_planet
-
-#     def __str__(self):
-#         return f"{self.name}{self.items}"
-#
-#
-# p = Planet("a")
-# print(p)
-# print(p.made_planet("jupi", "water, beer, wine, soil"))
