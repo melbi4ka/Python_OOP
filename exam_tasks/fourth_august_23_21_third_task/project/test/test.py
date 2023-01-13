@@ -69,8 +69,3 @@ class LibraryTest(unittest.TestCase):
         self.lib.rent_book("Ani", "Twain", "Tom")
         self.assertEqual({"Ani": [{"Twain": "Tom"}], "Gogo": [], "Peter": []}, self.lib.readers)
         self.assertEqual({"Twain": ["Fin"], "Stendal": ["Red"]}, self.lib.books_by_authors)
-
-
-
-
-
