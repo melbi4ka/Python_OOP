@@ -27,5 +27,3 @@ class Car(ABC):
     @abstractmethod
     def speed_limit(self, value):
         pass
-
-    

@@ -14,3 +14,10 @@ class Driver:
         if not value or value.isspace():
             raise ValueError("Name should contain at least one character!")
         self.__name = value
+
+#     def __str__(self):
+#         return f"{self.name} {self.car} {self.number_of_wins}"
+#
+#
+# dr = Driver("AAA")
+# print(dr)

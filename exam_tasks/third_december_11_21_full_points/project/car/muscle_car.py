@@ -28,3 +28,10 @@ class MuscleCar(Car):
             raise ValueError (f"Invalid speed limit! Must be between {self.min_speed_limit} "
                               f"and {self.max_speed_limit}!")
         self.__speed_limit = value
+
+#     def __str__(self):
+#         return f"{self.model} {self.speed_limit}"
+#
+#
+# mc = MuscleCar("aaaaa", 700)
+# print(mc)

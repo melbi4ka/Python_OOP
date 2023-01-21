@@ -21,6 +21,25 @@ class Controller:
         except ValueError:
             pass
 
+    # @staticmethod
+    # def car_type_create(car_type, model, speed_limit):
+    #     car = None
+    #     if MuscleCar.__name__ == car_type:
+    #         car = MuscleCar(model, speed_limit)
+    #     elif SportsCar.__name__ == car_type:
+    #         car = SportsCar(model, speed_limit)
+    #     return car
+    #
+    # def create_car(self, car_type: str, model: str, speed_limit: int):
+    #     if any([car.model == model for car in self.cars]):
+    #         raise Exception(f"Car {model} is already created!")
+    #     # for car in self.cars:
+    #     #     if car.model == model:
+    #     #         raise Exception (f"Car {model} is already created!")
+    #     current_car = self.car_type_create(car_type, model, speed_limit)
+    #     if current_car:
+    #         self.cars.append(current_car)
+    #         return f"{car_type} {model} is created."
 
     def create_driver(self, driver_name: str):
         if any(driver.name == driver_name for driver in self.drivers):
@@ -92,3 +111,7 @@ class Controller:
             result.append(f"Driver {drv.name} wins the {race_name} race "
                           f"with a speed of {drv.car.speed_limit}.")
         return "\n".join(result)
+
+
+# 100/100
+
